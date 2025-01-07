@@ -1,0 +1,22 @@
+{
+  "name": "jat-backend",
+  "version": "1.0.0",
+  "description": "Backend for Job Application Tracker",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "JobApplicationTracker"
+  },
+  "author": "Johannes Henz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "type": "module"
+}

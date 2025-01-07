@@ -1,1 +1,3 @@
-./client/jat-frontend/node_modules
+client/jat-frontend/node_modules
+server/node_modules
+

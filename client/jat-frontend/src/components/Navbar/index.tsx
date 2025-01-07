@@ -6,16 +6,24 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavMenu>
-                    <NavLink to="/" activeStyle>
+                    <NavLink to="/" style={({ isActive }) => ({
+                        color: isActive ? "#fd8c0b" : "#ffffff"
+                    })}>
                         Home    
                     </NavLink>
-                    <NavLink to="/about" activeStyle>
+                    <NavLink to="/about" style={({ isActive }) => ({
+                        color: isActive ? "#fd8c0b" : "#ffffff"
+                    })}>
                         About
                     </NavLink>
-                    <NavLink to="/login" activeStyle>
+                    <NavLink to="/login" style={({ isActive }) => ({
+                        color: isActive ? "#fd8c0b" : "#ffffff"
+                    })}>
                         Login   
                     </NavLink>
-                    <NavLink to="/sign-up" activeStyle>
+                    <NavLink to="/sign-up" style={({ isActive }) => ({
+                        color: isActive ? "#fd8c0b" : "#ffffff"
+                    })}>
                         Sign Up
                     </NavLink>
                 </NavMenu>
